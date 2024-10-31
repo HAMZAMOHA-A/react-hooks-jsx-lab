@@ -5,7 +5,7 @@ const About=() => {
   return (
   <div id = "about">
     <h2>About Me</h2>
-    <p>tribal cheif</p>
+    <p>Here you add a breif description about yourself</p>
     <img src={image} alt="I made this" />
   </div>
   )
