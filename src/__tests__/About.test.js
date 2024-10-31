@@ -41,5 +41,5 @@ test("renders a <img> element with the correct attributes", () => {
   const img = screen.queryByAltText("I made this");
 
   expect(img).toBeInTheDocument();
-  expect(img).toHaveAttribute("src", image);
+  expect(img).toBeInAttribute("src", image);
 });

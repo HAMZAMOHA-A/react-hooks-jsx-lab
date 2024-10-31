@@ -1,9 +1,17 @@
 import React from "react";
-import { name, city } from "../data/data.js";
 
-function Home() {
+
+const Home = () => {
+  const name = "Your Name"
+  const city =  "Your City"
   // update the JSX being returned!
-  return <div>Home</div>;
+  return (
+  <div id="Home">
+    <h1 style={{color: 'firebrick'}}>
+      {name} is a web Developer from {city}
+    </h1>
+  </div>
+  )
 }
 
 export default Home;
